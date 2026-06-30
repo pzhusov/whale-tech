@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0B1E3F" />
+  <title>WHALE TECH — Strategy, Storefronts, and Data — Built to Run</title>
+  <meta name="description" content="WHALE TECH — FZCO is a Dubai-based consultancy delivering technology strategy, e-commerce solutions, and data classification & analytics. Licensed by IFZA, Dubai Silicon Oasis. License №39526." />
+  <meta name="keywords" content="WHALE TECH, technology consulting Dubai, e-commerce solutions UAE, data classification analytics, IFZA, Dubai Silicon Oasis" />
+  <meta name="author" content="WHALE TECH — FZCO" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="WHALE TECH — Strategy, Storefronts, and Data — Built to Run" />
+  <meta property="og:description" content="Dubai-based consultancy in technology consulting, e-commerce, and data classification & analytics. Licensed IFZA operator." />
+  <meta property="og:locale" content="en_US" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─────────  HEADER  ───────── -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="WHALE TECH — Home">
+        <img src="assets/logo.svg" alt="" class="brand-mark" aria-hidden="true" />
+        <span class="brand-name">WHALE<span class="brand-name-accent">TECH</span></span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#consulting">Consulting</a></li>
+          <li><a href="#ecommerce">E-commerce</a></li>
+          <li><a href="#data">Data &amp; Analytics</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary btn-sm header-cta">Get in Touch</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <ul>
+        <li><a href="#consulting">Consulting</a></li>
+        <li><a href="#ecommerce">E-commerce</a></li>
+        <li><a href="#data">Data &amp; Analytics</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary btn-block">Get in Touch</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ─────────  HERO  ───────── -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <svg class="hero-grid" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 600">
+          <defs>
+            <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M40 0 L 0 0 0 40" fill="none" stroke="rgba(61,169,252,0.07)" stroke-width="1"/>
+            </pattern>
+            <radialGradient id="heroGlow" cx="50%" cy="40%" r="60%">
+              <stop offset="0%" stop-color="rgba(61,169,252,0.25)"/>
+              <stop offset="100%" stop-color="rgba(61,169,252,0)"/>
+            </radialGradient>
+          </defs>
+          <rect width="1200" height="600" fill="url(#grid)"/>
+          <rect width="1200" height="600" fill="url(#heroGlow)"/>
+        </svg>
+        <svg class="hero-whale" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" aria-hidden="true">
+          <path d="M40 130 C 40 95, 90 75, 140 75 C 195 75, 250 90, 270 115 C 285 130, 285 145, 270 160 C 245 180, 200 185, 160 180 C 110 175, 70 160, 50 145 C 42 140, 40 135, 40 130 Z"
+                fill="rgba(61,169,252,0.10)"/>
+          <circle cx="225" cy="118" r="4" fill="rgba(61,169,252,0.5)"/>
+        </svg>
+      </div>
+
+      <div class="container hero-inner">
+        <span class="eyebrow">Dubai · IFZA Licensed · Since 2023</span>
+        <h1 id="hero-title" class="hero-title">Strategy, Storefronts, and Data — <span class="text-accent">Built to Run.</span></h1>
+        <p class="hero-subhead">WHALE&nbsp;TECH helps ambitious operators plan their technology, launch and scale online retail, and turn raw data into something their teams can actually use. One delivery team from Dubai, working across three disciplines.</p>
+
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary btn-lg">Get a Consultation</a>
+          <a href="#consulting" class="btn btn-ghost btn-lg">Explore Services <span aria-hidden="true">→</span></a>
+        </div>
+
+        <ul class="trust-strip" aria-label="Why WHALE TECH">
+          <li><span class="trust-dot" aria-hidden="true"></span>Dubai-based, globally delivered</li>
+          <li><span class="trust-dot" aria-hidden="true"></span>Licensed IFZA freezone operator</li>
+          <li><span class="trust-dot" aria-hidden="true"></span>End-to-end delivery — strategy, build, run</li>
+          <li><span class="trust-dot" aria-hidden="true"></span>Cross-domain expertise</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─────────  STATS  ───────── -->
+    <section class="stats" aria-label="Company facts">
+      <div class="container stats-grid">
+        <div class="stat">
+          <div class="stat-value">2023</div>
+          <div class="stat-label">Founded</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">3</div>
+          <div class="stat-label">Core Service Lines</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">UAE</div>
+          <div class="stat-label">Headquarters</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">IFZA</div>
+          <div class="stat-label">Licensed Freezone Operator</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────  SERVICES OVERVIEW  ───────── -->
+    <section class="services-overview" aria-labelledby="services-overview-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">What we do</span>
+          <h2 id="services-overview-title">Three Practices. One Delivery Team.</h2>
+          <p class="section-subhead">Our work is organised around three practices that overlap and reinforce each other. Most engagements start in one and pull in the others within a quarter.</p>
+        </header>
+
+        <div class="cards-grid cards-3">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/>
+              </svg>
+            </div>
+            <h3>Technology Consulting</h3>
+            <p>Independent, vendor-neutral advice on the technology choices that actually move a business forward — and the discipline to leave the rest alone.</p>
+            <a href="#consulting" class="card-link">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7h18l-2 12H5z"/>
+                <path d="M8 7V5a4 4 0 0 1 8 0v2"/>
+              </svg>
+            </div>
+            <h3>E-commerce Solutions</h3>
+            <p>Storefronts that convert and operations that scale. We design, build, and integrate online retail on the platforms that fit your catalog size and growth curve.</p>
+            <a href="#ecommerce" class="card-link">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19V5"/><path d="M4 19h16"/>
+                <path d="M7 15l4-6 3 4 4-7"/>
+              </svg>
+            </div>
+            <h3>Data Classification &amp; Analytics</h3>
+            <p>We build classification pipelines, tagging systems, and analytics dashboards so the right people see the right numbers, in the right format, at the right time.</p>
+            <a href="#data" class="card-link">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────  TECHNOLOGY CONSULTING  ───────── -->
+    <section class="service-section" id="consulting" aria-labelledby="consulting-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Practice 01</span>
+          <h2 id="consulting-title">Technology Consulting</h2>
+          <p class="section-subhead">Decisions, not deliverables. We help leadership teams cut through vendor noise and pick the architecture that fits the business they actually run.</p>
+        </header>
+
+        <p class="section-lede">Every engagement starts with structured discovery: what you have, what it costs you to maintain, what it's blocking, and what it should be doing twelve months from now. We don't sell software and we don't resell platforms, so our advice doesn't come with a commission attached. The output is a written strategy, a phased roadmap, and — if you want us to stay — a delivery team to execute it.</p>
+
+        <div class="cards-grid cards-3">
+          <article class="subcard">
+            <h4>IT Strategy &amp; Roadmap</h4>
+            <p>A 12–36 month technology plan tied to commercial objectives, with explicit build-versus-buy calls and budget guardrails at every phase.</p>
+          </article>
+          <article class="subcard">
+            <h4>Digital Transformation</h4>
+            <p>Process redesign for teams moving from manual or legacy operations to digital-first workflows, including change-management support so the new stack actually gets adopted.</p>
+          </article>
+          <article class="subcard">
+            <h4>Systems Integration</h4>
+            <p>Connecting CRMs, ERPs, payment gateways, marketing tools, and internal services so data flows without manual exports, CSVs, or weekly reconciliation meetings.</p>
+          </article>
+          <article class="subcard">
+            <h4>Cloud &amp; Infrastructure Advisory</h4>
+            <p>Cloud architecture reviews (AWS, Azure, GCP), cost optimisation, and migration planning with lock-in treated as a cost, not a feature.</p>
+          </article>
+          <article class="subcard">
+            <h4>Vendor Selection &amp; RFP</h4>
+            <p>Shortlisting platforms, drafting RFPs, evaluating bids, and sitting in on contract negotiations as your technical counterpart, not the vendor's.</p>
+          </article>
+          <article class="subcard">
+            <h4>Security &amp; Compliance Baseline</h4>
+            <p>Practical hardening of your stack against common threats, plus a checklist for the regulations you actually face (PCI-DSS, GDPR, UAE PDPL).</p>
+          </article>
+        </div>
+
+        <div class="what-you-get">
+          <h3>What you get</h3>
+          <ul>
+            <li><span class="check" aria-hidden="true">✓</span> A written strategy document you can share with your board, your bank, or your investors.</li>
+            <li><span class="check" aria-hidden="true">✓</span> A roadmap sequenced by ROI, not by what was easiest to scope first.</li>
+            <li><span class="check" aria-hidden="true">✓</span> Honest recommendations — including the cases where the answer is "don't build anything yet".</li>
+            <li><span class="check" aria-hidden="true">✓</span> An engineering-ready specification the delivery team can pick up and run.</li>
+          </ul>
+        </div>
+
+        <div class="section-cta">
+          <a href="#contact" class="btn btn-primary">Book a Strategy Session <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────  E-COMMERCE SOLUTIONS  ───────── -->
+    <section class="service-section service-section-alt" id="ecommerce" aria-labelledby="ecommerce-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Practice 02</span>
+          <h2 id="ecommerce-title">E-commerce Solutions</h2>
+          <p class="section-subhead">We build online stores that hold up under real traffic, real catalogs, and real ops teams. No templates dressed up as custom work.</p>
+        </header>
+
+        <p class="section-lede">We treat e-commerce as a system, not a website. That means a storefront your customers can find and convert on, an admin your team can actually use on a Monday morning, and back-office plumbing that talks to your warehouse, your accountant, and your marketing stack. We pick the platform based on your catalog size, your growth curve, and your in-house technical depth — then we ship the integrations that make the difference.</p>
+
+        <div class="cards-grid cards-3">
+          <article class="subcard">
+            <h4>Platform Setup &amp; Migration</h4>
+            <p>Launch on Shopify, WooCommerce, Magento (Adobe Commerce), or BigCommerce — or migrate cleanly from a legacy platform with zero order or customer data loss.</p>
+          </article>
+          <article class="subcard">
+            <h4>Headless &amp; Composable Commerce</h4>
+            <p>Decoupled front-ends (Next.js, Nuxt, Hydrogen) on top of commerce backends, for brands that need full design control and multi-channel reuse.</p>
+          </article>
+          <article class="subcard">
+            <h4>Marketplace Integrations</h4>
+            <p>Amazon, Noon, Carrefour UAE, and other regional marketplaces connected to your central catalog, inventory, and pricing — no more five spreadsheets.</p>
+          </article>
+          <article class="subcard">
+            <h4>Payments, Tax &amp; Logistics</h4>
+            <p>Payment gateway setup, fraud rules, tax configuration for GCC and cross-border, and courier integrations (Aramex, DHL, Fetchr, regional last-mile).</p>
+          </article>
+          <article class="subcard">
+            <h4>Conversion Rate Optimisation</h4>
+            <p>Audit-driven improvements to product pages, checkout, search, and merchandising, measured against a baseline captured before any change ships.</p>
+          </article>
+          <article class="subcard">
+            <h4>Store Operations &amp; Support</h4>
+            <p>Retainer-based maintenance, platform upgrades, performance monitoring, and a named technical contact who actually picks up the phone.</p>
+          </article>
+        </div>
+
+        <div class="what-you-get">
+          <h3>What you get</h3>
+          <ul>
+            <li><span class="check" aria-hidden="true">✓</span> A storefront your team can launch, run, and update without calling us for every minor change.</li>
+            <li><span class="check" aria-hidden="true">✓</span> Integrations that hold up against real order volume, not demo volume.</li>
+            <li><span class="check" aria-hidden="true">✓</span> Documentation, training, and a handover pack your operations team can use from day one.</li>
+            <li><span class="check" aria-hidden="true">✓</span> A measurement framework so you know whether last quarter's changes are moving revenue.</li>
+          </ul>
+        </div>
+
+        <div class="section-cta">
+          <a href="#contact" class="btn btn-primary">Plan Your Storefront <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────  DATA CLASSIFICATION & ANALYTICS  ───────── -->
+    <section class="service-section" id="data" aria-labelledby="data-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Practice 03</span>
+          <h2 id="data-title">Data Classification &amp; Analytics</h2>
+          <p class="section-subhead">Raw data is a liability. Structured data is an asset. We build the layer in between.</p>
+        </header>
+
+        <p class="section-lede">Most companies sit on more data than they can use — scattered across CRMs, spreadsheets, product databases, marketing tools, and internal documents. We start by classifying what is actually there: what is it, where does it live, how reliable is it, who is allowed to see it, and what is it for. From there we design the pipelines that keep it clean, the tagging systems that make it searchable, and the dashboards that make decisions faster.</p>
+
+        <div class="cards-grid cards-3">
+          <article class="subcard">
+            <h4>Data Classification Pipelines</h4>
+            <p>Automated and rules-based classification of documents, products, transactions, and content into structured taxonomies that downstream tools can rely on.</p>
+          </article>
+          <article class="subcard">
+            <h4>Content &amp; Product Tagging</h4>
+            <p>Consistent tagging across catalogs, knowledge bases, and media libraries — including multilingual and Arabic-language content with proper locale handling.</p>
+          </article>
+          <article class="subcard">
+            <h4>ML-Based Categorisation</h4>
+            <p>Supervised and semi-supervised models for auto-categorisation, entity extraction, and sentiment scoring, with human-in-the-loop review.</p>
+          </article>
+          <article class="subcard">
+            <h4>Analytics Dashboards</h4>
+            <p>Executive, operational, and product dashboards built on the BI stack that fits your environment — Looker, Power BI, Metabase, or a custom build.</p>
+          </article>
+          <article class="subcard">
+            <h4>Data Quality &amp; Governance</h4>
+            <p>Data profiling, deduplication, lineage tracking, and policy enforcement so your reports can be trusted by finance, the board, and your auditors.</p>
+          </article>
+          <article class="subcard">
+            <h4>Privacy &amp; Compliance</h4>
+            <p>Mapping data flows against GDPR, UAE PDPL, and sector-specific rules, including data subject request handling, retention policies, and breach response.</p>
+          </article>
+        </div>
+
+        <div class="what-you-get">
+          <h3>What you get</h3>
+          <ul>
+            <li><span class="check" aria-hidden="true">✓</span> A single, queryable view of the data you already have, with documented quality and known gaps.</li>
+            <li><span class="check" aria-hidden="true">✓</span> Classification that scales — humans define the rules once, automation enforces them every day.</li>
+            <li><span class="check" aria-hidden="true">✓</span> Dashboards your team opens every morning because they answer the questions they're actually asking.</li>
+            <li><span class="check" aria-hidden="true">✓</span> An audit trail for compliance reviews, not a binder no one opens.</li>
+          </ul>
+        </div>
+
+        <div class="section-cta">
+          <a href="#contact" class="btn btn-primary">Map Your Data <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────  ABOUT US  ───────── -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-narrative">
+          <span class="eyebrow">About</span>
+          <h2 id="about-title">A Dubai-based delivery team for operators who need things to actually work.</h2>
+          <p>WHALE TECH — FZCO is a Dubai-based technology company operating from the IFZA freezone in Dubai Silicon Oasis. Founded in 2023, we were built to give mid-sized operators access to the same calibre of technology, e-commerce, and data capability that large enterprises buy from global firms — without the overhead, the retainer model, or the three-month discovery phase.</p>
+          <p>We do any IT development: from custom web platforms and mobile apps to backend services, integrations, automations, dashboards, and data pipelines. Behind the work sit dedicated cross-functional teams — strategy, engineering, e-commerce, data, QA and operations — plus the vendor partnerships, platform expertise, and infrastructure access needed to ship and run production systems. Whether the brief is a single integration or a multi-track build, we have the resources to staff it.</p>
+          <p>We work with founders, COOs, and CTOs who need a partner that can move between strategy and execution inside the same engagement. Our clients include regional retailers expanding online, service businesses formalising their data, and growth-stage companies rebuilding a stack that has outgrown its first version. We deliver across the UAE and internationally, with most work handled remotely and on-site presence arranged when a project requires it.</p>
+          <p class="about-licensing">The company operates under IFZA freezone license №39526, registered at IFZA Properties, Dubai Silicon Oasis, Dubai, UAE.</p>
+        </div>
+
+        <aside class="about-side">
+          <div class="mv-block">
+            <h3>Mission</h3>
+            <p>Build technology that businesses actually use — not technology that sits in a deck.</p>
+          </div>
+          <div class="mv-block">
+            <h3>Vision</h3>
+            <p>Be the consultancy mid-sized operators call first when the problem crosses IT, e-commerce, and data at the same time.</p>
+          </div>
+          <div class="mv-block">
+            <h3>Values</h3>
+            <ul class="values-list">
+              <li><strong>Honest scoping.</strong> If the answer is "don't build this", we say so.</li>
+              <li><strong>Engineered delivery.</strong> Everything we ship has a maintenance owner.</li>
+              <li><strong>Vendor neutrality.</strong> We pick the tool that fits, not the tool that pays us.</li>
+              <li><strong>Documented work.</strong> If your team can't run it after we leave, we haven't finished.</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <div class="container">
+        <div class="capabilities-block">
+          <h3>Capabilities &amp; Resources</h3>
+          <p class="capabilities-lede">We staff engagements with the people and infrastructure needed to actually deliver — not with slides and subcontracted freelancers.</p>
+          <div class="cards-grid cards-4">
+            <div class="why-card">
+              <div class="why-num">A</div>
+              <h4>Cross-functional teams</h4>
+              <p>Dedicated strategy, engineering, e-commerce, data, QA, and operations squads that can be combined or scaled per engagement.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">B</div>
+              <h4>Full IT development</h4>
+              <p>Custom web, mobile, backend, integrations, automations, dashboards, and data pipelines — owned end-to-end.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">C</div>
+              <h4>Platform &amp; vendor ecosystem</h4>
+              <p>Working knowledge across Shopify, Magento, WooCommerce, AWS, Azure, GCP, MLOps stacks, BI tools, and integration platforms.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">D</div>
+              <h4>Infrastructure &amp; tooling</h4>
+              <p>Internal development, staging, and deployment tooling; CI/CD pipelines; observability and security baselines ready to apply.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-block">
+          <h3>Why WHALE TECH</h3>
+          <div class="cards-grid cards-4">
+            <div class="why-card">
+              <div class="why-num">01</div>
+              <h4>Three practices, one team</h4>
+              <p>Strategy, storefronts, and data live in the same engagement — no handoff gap between vendors.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">02</div>
+              <h4>Vendor-neutral by structure</h4>
+              <p>Not a Shopify shop, not a Magento shop, not an AWS shop. We pick what fits the brief.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">03</div>
+              <h4>Built to be maintained</h4>
+              <p>We document, we train, we hand over properly. We don't hold our clients hostage to our retainer.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">04</div>
+              <h4>UAE-rooted, international</h4>
+              <p>Local presence in Dubai Silicon Oasis; remote delivery across MENA, Europe, and Asia.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="license-block">
+          <h3>Licensing &amp; Credentials</h3>
+          <dl class="license-dl">
+            <div><dt>Legal entity</dt><dd>WHALE TECH — FZCO</dd></div>
+            <div><dt>Jurisdiction</dt><dd>Freezone Company, IFZA — Dubai Silicon Oasis</dd></div>
+            <div><dt>Registration</dt><dd>Premises DSO-IFZA, Building IFZA Properties, Dubai Silicon Oasis, Dubai, UAE</dd></div>
+            <div><dt>License №</dt><dd>39526</dd></div>
+            <div><dt>Licensed activities</dt><dd>Information Technology Consultants · Ecommerce · Data Classification &amp; Analysis Services · General Trading</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────  CONTACT US  ───────── -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="eyebrow">Contact</span>
+          <h2 id="contact-title">Tell us what you're working on.</h2>
+          <p class="contact-lede">We'll come back within one business day with either a next step, a clarifying question, or — if we're not the right fit — a pointer to someone who is.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:md@whaletech.dev">md@whaletech.dev</a>
+            </li>
+            <li>
+              <span class="contact-label">Address</span>
+              <span>IFZA Properties, Dubai Silicon Oasis, Dubai, UAE</span>
+            </li>
+            <li>
+              <span class="contact-label">Working hours</span>
+              <span>Sunday – Thursday, 09:00 – 18:00 GST (UTC+4)</span>
+            </li>
+          </ul>
+
+          <div class="what-happens-next">
+            <h3>What happens next</h3>
+            <ol>
+              <li><strong>You send the form.</strong> It lands in our shared inbox, logged against your name and company.</li>
+              <li><strong>We respond within one business day.</strong> Either with a proposed time for a 30-minute scoping call, or with a short list of questions we need answered first.</li>
+              <li><strong>Scoping call.</strong> Free, 30 minutes, no slide deck. If there's a fit, we follow up with a written proposal and a fixed quote within five business days.</li>
+            </ol>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mrewppak" method="POST" novalidate>
+          <h3>Send a message</h3>
+
+          <div class="form-row">
+            <label class="form-field">
+              <span>Full name</span>
+              <input type="text" name="name" required autocomplete="name" />
+            </label>
+            <label class="form-field">
+              <span>Company</span>
+              <input type="text" name="company" required autocomplete="organization" />
+            </label>
+          </div>
+
+          <label class="form-field">
+            <span>Work email</span>
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+
+          <label class="form-field">
+            <span>Project type</span>
+            <select name="topic" required>
+              <option value="">Choose a practice…</option>
+              <option value="consulting">Technology Consulting</option>
+              <option value="ecommerce">E-commerce Solutions</option>
+              <option value="data">Data Classification &amp; Analytics</option>
+              <option value="other">Not sure yet / Other</option>
+            </select>
+          </label>
+
+          <label class="form-field">
+            <span>Brief description</span>
+            <textarea name="message" rows="5" maxlength="500" required placeholder="Tell us about your stack, your goals, and what's blocking you. Max 500 words."></textarea>
+          </label>
+
+          <!-- Honeypot for spam — leave empty -->
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true" />
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg" id="formSubmit">Send Message</button>
+          <p class="form-note">By submitting you agree to be contacted about your enquiry. We don't share your details.</p>
+
+          <div class="form-success" id="formSuccess" hidden>
+            <strong>Message received.</strong> We&rsquo;ll come back within one business day.
+          </div>
+
+          <div class="form-error" id="formError" hidden>
+            <strong>Something went wrong.</strong> Please email us directly at <a href="mailto:md@whaletech.dev">md@whaletech.dev</a>.
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─────────  FOOTER  ───────── -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#top" class="brand brand-footer" aria-label="WHALE TECH — Home">
+          <img src="assets/logo.svg" alt="" class="brand-mark" aria-hidden="true" />
+          <span class="brand-name">WHALE<span class="brand-name-accent">TECH</span></span>
+        </a>
+        <p class="footer-blurb">WHALE TECH — FZCO. Technology consulting, e-commerce, and data classification from Dubai Silicon Oasis. Building the systems your team can actually run.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#consulting">Technology Consulting</a></li>
+          <li><a href="#ecommerce">E-commerce Solutions</a></li>
+          <li><a href="#data">Data &amp; Analytics</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <ul class="footer-contact">
+          <li><a href="mailto:md@whaletech.dev">md@whaletech.dev</a></li>
+          <li>IFZA Properties, Dubai Silicon Oasis, Dubai, UAE</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>© 2026 WHALE TECH — FZCO. All rights reserved.</div>
+      <div class="footer-license">Licensed by IFZA, Dubai Silicon Oasis. License №39526.</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+<style>
+#minimax-floating-ball {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 12px;
+  background: #222222;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  color: #F8F8F8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#minimax-floating-ball:hover {
+  transform: translateY(-2px);
+  background: #383838;
+}
+.minimax-ball-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.minimax-logo-wave {
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg%20preserveAspectRatio%3D%27none%27%20width%3D%27100%25%27%20height%3D%27100%25%27%20overflow%3D%27visible%27%20style%3D%27display%3A%20block%3B%27%20viewBox%3D%270%200%20170.136%20138.225%27%20fill%3D%27none%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cg%20id%3D%27Frame%202116748449%27%3E%3Cpath%20id%3D%27Subtract%27%20d%3D%27M170%20101.783C170%20105.144%20168.49%20108.327%20165.886%20110.453L134.963%20135.702C132.964%20137.334%20130.463%20138.225%20127.883%20138.225H10.4938C4.69824%20138.225%200%20133.527%200%20127.732V39.2289C0%2035.8597%201.51758%2032.6698%204.13162%2030.5442L38.5402%202.56547C40.536%200.942662%2043.0298%200.0567377%2045.602%200.0567377H159.506C165.302%200.0567377%20170%204.75498%20170%2010.5506V101.783Z%27%20fill%3D%27black%27%20style%3D%27fill%3Ablack%3Bfill-opacity%3A1%3B%27/%3E%3Cpath%20id%3D%27Subtract_2%27%20d%3D%27M149.011%2094.4632C149.011%2096.1471%20148.253%2097.7415%20146.946%2098.8043L125.893%20115.936C124.895%20116.748%20123.648%20117.191%20122.361%20117.191H24.6479C22.716%20117.191%2021.15%20115.625%2021.15%20113.693V46.1166C21.15%2044.4267%2021.9135%2042.8274%2023.2274%2041.7648L47.367%2022.2437C48.3638%2021.4376%2049.607%2020.9982%2050.8888%2020.9988L145.514%2021.0427C147.446%2021.0436%20149.011%2022.6094%20149.011%2024.5406V94.4632Z%27%20fill%3D%27white%27%20style%3D%27fill%3Awhite%3Bfill-opacity%3A1%3B%27/%3E%3Cpath%20id%3D%27Rectangle%20111142564%27%20d%3D%27M42.111%2080.8025C42.111%2077.7115%2044.6167%2075.2057%2047.7077%2075.2057H60.9999C64.0908%2075.2057%2066.5966%2077.7115%2066.5966%2080.8025V121.029H42.111V80.8025Z%27%20fill%3D%27black%27%20style%3D%27fill%3Ablack%3Bfill-opacity%3A1%3B%27/%3E%3Cpath%20id%3D%27Rectangle%20111142567%27%20d%3D%27M79.1894%2080.8025C79.1894%2077.7115%2081.6952%2075.2057%2084.7861%2075.2057H98.0783C101.169%2075.2057%20103.675%2077.7115%20103.675%2080.8025V121.029H79.1894V80.8025Z%27%20fill%3D%27black%27%20style%3D%27fill%3Ablack%3Bfill-opacity%3A1%3B%27/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px 11px;
+  background-color: #8FD1FF;
+  border-radius: 4px;
+}
+
+.minimax-ball-text {
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.minimax-close-icon {
+  margin-left: 8px;
+  font-size: 16px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.minimax-close-icon:hover {
+  opacity: 1;
+}
+</style>
+<div id="minimax-floating-ball">
+  <div class="minimax-ball-content">
+    <div class="minimax-logo-wave"></div>
+    <span class="minimax-ball-text">Created by MiniMax Agent</span>
+  </div>
+  <div class="minimax-close-icon">×</div>
+</div>
+<script>
+// Initialize floating ball functionality
+function initFloatingBall() {
+  const ball = document.getElementById('minimax-floating-ball');
+  if (!ball) return;
+
+  // Initial animation
+  ball.style.opacity = '0';
+  ball.style.transform = 'translateY(20px)';
+
+  setTimeout(() => {
+    ball.style.opacity = '1';
+    ball.style.transform = 'translateY(0)';
+  }, 500);
+
+  // Handle logo click
+  const ballContent = ball.querySelector('.minimax-ball-content');
+  ballContent.addEventListener('click', function (e) {
+    e.stopPropagation();
+    window.open('https://agent.minimax.io/', '_blank');
+    ball.style.transform = 'scale(0.95)';
+    setTimeout(() => {
+      ball.style.transform = 'scale(1)';
+    }, 100);
+  });
+
+  // Handle close button click
+  const closeIcon = ball.querySelector('.minimax-close-icon');
+  closeIcon.addEventListener('click', function (e) {
+    e.stopPropagation();
+    ball.style.opacity = '0';
+    ball.style.transform = 'translateY(20px)';
+
+    setTimeout(() => {
+      ball.style.display = 'none';
+    }, 300);
+  });
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', initFloatingBall); 
+</script>
+</body>
+</html>
